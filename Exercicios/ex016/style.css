@@ -1,0 +1,18 @@
+/* Por nome*/
+h2 {
+    background-color: blue;
+    color: white;
+}
+/* códigos hexadecimais (0 a f)*/
+#cor0 {
+    background-color: #b1337c;
+}
+
+/*Exemplo usando RGB direto*/
+#cor1 {
+    background-color: rgb(255, 00, 00);  
+}
+/*Representação por HSL (hue, saturation, lightness)*/
+#cor2 {
+    background-color: hsl(255, 100%, 50%);
+}

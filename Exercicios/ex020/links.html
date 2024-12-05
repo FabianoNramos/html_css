@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: arial, helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial::before {
+            content: '=>';
+        }
+
+        .especial::after {
+            content: '<=';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        
+        <li><a href="https://www.youtube.com/feed/subscriptions" target="_blank" class="especial">Dicas</a></li>
+    
+        
+        <li><a href="https://www.youtube.com/feed/subscriptions" target="_blank" class="especial">Me contate</a></li>
+        
+        
+        <li><a href="https://www.youtube.com/feed/subscriptions" target="_blank">Voltar</a></li>
+        
+    </ul>
+</body>
+</html>
